@@ -1,6 +1,7 @@
 <script>
 
 import Header from "./components/AppTitle.vue"
+import Jumbotron from "./components/AppHero.vue"
 
 
 export default {
@@ -24,9 +25,8 @@ export default {
   <Jumbotron/>
 </template>
 
-
 <style scoped>
 h1{
-  color: crimson;
+  color: rgb(61, 216, 87);
 }
 </style>

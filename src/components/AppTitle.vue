@@ -1,4 +1,5 @@
 <script>
+import Jumbotron from "./AppHero.vue"
 
 export default {
   name: 'Header',
