@@ -1,14 +1,32 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+
+import Header from "./components/AppTitle.vue"
+
+
+export default {
+  name: 'App',
+  components:{
+    Header,
+
+  },
+  data(){
+    return{
+      title: "Hello Vite!"
+    }
+  }
+}
 </script>
 
 <template>
-  <div>
 
-  </div>
-
+  <Header/>
+  <h1>{{ title }}</h1>
+  <Jumbotron/>
 </template>
 
-<style scoped>
 
+<style scoped>
+h1{
+  color: crimson;
+}
 </style>
